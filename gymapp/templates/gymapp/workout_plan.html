@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+    <title>Workout Plan</title>
+    <style>
+        body { font-family: Arial; margin: 20px; }
+        h2 { color: darkgreen; }
+        table { width: 80%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <h2>Weekly Workout Plan</h2>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Workout</th>
+        </tr>
+        <tr><td>Monday</td><td>Chest & Triceps</td></tr>
+        <tr><td>Tuesday</td><td>Back & Biceps</td></tr>
+        <tr><td>Wednesday</td><td>Legs</td></tr>
+        <tr><td>Thursday</td><td>Shoulders</td></tr>
+        <tr><td>Friday</td><td>Cardio + Core</td></tr>
+        <tr><td>Saturday</td><td>Full Body HIIT</td></tr>
+        <tr><td>Sunday</td><td>Rest</td></tr>
+    </table>
+</body>
+</html>
